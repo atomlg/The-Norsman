@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 7198653270731798579}
   - component: {fileID: 5269332774344442208}
   - component: {fileID: 6459460949278557032}
+  - component: {fileID: 8926478524340351498}
   m_Layer: 12
   m_Name: pPlayer
   m_TagString: Player
@@ -227,7 +228,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082744466237280963}
-  m_LocalRotation: {x: -0, y: -0.99346346, z: -0, w: 0.11415048}
+  m_LocalRotation: {x: 0, y: -0.99346375, z: 0, w: 0.114148326}
   m_LocalPosition: {x: -1.157, y: 0, z: 6.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -354,8 +355,88 @@ MonoBehaviour:
     m_ActionName: Player/Sprint[/Keyboard/leftShift,/XInputControllerWindows/leftTrigger]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: e4ce1614-c754-48c1-9103-33130441661f
-    m_ActionName: UI/New action
+    m_ActionId: e90be9a0-881c-40a1-a55a-7c8ff2a3f9ca
+    m_ActionName: Player/Collect[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 16b85d2a-94a3-411e-95e0-b01eb96930bb
+    m_ActionName: Player/Attack[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0cd2c3a2-e81d-4dc3-8fbf-31b4f148ceef
+    m_ActionName: Player/Block[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 674b4725-38a5-443e-a5db-9d7357702435
+    m_ActionName: Player/Aim[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6591920-2996-4016-990b-7cf71ac18dc1
+    m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 08115a4b-edc0-4a0e-a824-28d9ff72d36f
+    m_ActionName: Player/WestLoadout[/Keyboard/leftArrow,/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f1fa4d58-fdbd-4fb4-b4da-71eef814b1a1
+    m_ActionName: Player/NorthLoadout[/Keyboard/upArrow,/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 83fda7a9-0e22-4792-8e59-c959b1a83482
+    m_ActionName: Player/EastLoadout[/Keyboard/downArrow,/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1b24f7bf-f7dd-4af9-8fa4-08e1d90ed55c
+    m_ActionName: Player/SouthLoadout[/Keyboard/downArrow,/Keyboard/4]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d65adda5-f51f-42c7-bba5-590dfcce9255
+    m_ActionName: Player/AnyKey[/Keyboard/anyKey]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f87cbf01-8e45-4025-a759-d384dc75aee6
+    m_ActionName: Player/Interact[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d7ebdbfb-43aa-41cb-a2e9-fbde1c59752a
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ebf0c929-4327-472f-ae45-333288ae26d2
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: af723421-0de5-4af8-be1f-3819449f8bad
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 37835323-39af-4a9c-ac44-8f98dcc76f0c
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8bc4d64f-9938-495b-a593-b3707147fb72
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d0bc764-1e20-4dc1-97f7-5a49e0ac05ea
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8886be56-10c7-4705-a7b6-7317c58c2034
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 424c797f-f1f7-45b2-8b0d-4fff4f44de37
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 062508c2-2a24-406b-ae97-2bde4593595c
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5887aeb5-72c4-4013-9015-1db378c5da93
+    m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -599,6 +680,19 @@ MonoBehaviour:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0}
     m_Visible: 1
+--- !u!114 &8926478524340351498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082744466237280963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715ac081b31fa54c8d48343dbc77f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minimumDistance: 3
 --- !u!1 &1103054783521970111
 GameObject:
   m_ObjectHideFlags: 0
