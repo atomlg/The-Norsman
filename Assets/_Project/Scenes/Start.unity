@@ -2657,7 +2657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10a5ec0fd97aed943a3e6833ea9e6a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Items>k__BackingField: []
+  _items: []
 --- !u!1 &862810152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4353,9 +4353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb4721c917b83a409c9160ed76e4ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _handlers:
-  - {fileID: 1805522740}
-  - {fileID: 1805522739}
 --- !u!135 &1805522735
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4444,8 +4441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766a967f78d64224b1b893e6a7f4fa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Inventory: {fileID: 855782460}
-  Item: Potion
+  _inventory: {fileID: 855782460}
+  _item: {fileID: 11400000, guid: 9e664438e6cf47c479619b246f049b22, type: 2}
 --- !u!114 &1805522740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6053,7 +6050,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 5000
-  field of view: 40
+  field of view: 35
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -6079,7 +6076,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8944336656485594569}
   m_LocalRotation: {x: 0, y: -0.99346346, z: 0, w: 0.11415048}
-  m_LocalPosition: {x: -0.33114886, y: 1.25, z: 10.429089}
+  m_LocalPosition: {x: -1.0821786, y: 1.7, z: 7.883078}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 429927039}

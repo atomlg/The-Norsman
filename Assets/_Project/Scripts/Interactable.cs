@@ -1,10 +1,13 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    [SerializeField] private List<InteractionHandler> _handlers;
-    
+    private List<InteractionHandler> _handlers;
+
+    private void Awake() => _handlers = GetComponents<InteractionHandler>().ToList();
+
     public void Interact()
     {
         foreach (InteractionHandler handler in _handlers) 

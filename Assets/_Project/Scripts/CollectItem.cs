@@ -1,13 +1,14 @@
-﻿using UnityEngine;
+﻿using _Project.Scripts;
+using UnityEngine;
 
 public class CollectItem: InteractionHandler
 {
-    public Inventory Inventory;
-    public string Item;
+    [SerializeField] private Inventory _inventory;
+    [SerializeField] private ItemData _item;
     
     public override void Interact()
     {
-        Inventory.Add(Item);
+        _inventory.Add(_item);
         Debug.Log("Item collected");
     }
 }
