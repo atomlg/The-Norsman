@@ -1,6 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [field: SerializeField] public string[] Items { get; private set; }
+    [SerializeField] private List<string> _items;
+
+    public void Add(string item) => _items.Add(item);
 }
