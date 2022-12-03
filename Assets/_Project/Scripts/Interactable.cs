@@ -6,7 +6,7 @@ public class Interactable : MonoBehaviour
 {
     private List<InteractionHandler> _handlers;
 
-    private void Awake() => _handlers = GetComponents<InteractionHandler>().ToList();
+    private void Awake() => _handlers = GetComponentsInChildren<InteractionHandler>().ToList();
 
     public void Interact()
     {

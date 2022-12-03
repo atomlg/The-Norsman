@@ -1107,6 +1107,51 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &145465566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145465567}
+  - component: {fileID: 145465568}
+  m_Layer: 0
+  m_Name: Fade Out Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145465567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145465566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1805522738}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &145465568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145465566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e50350a4e83f3d4fb8580d4a668d483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1805522736}
+  _duration: 3
 --- !u!224 &154852071 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4316484254527011590, guid: 0fe7bf9d7db7bff49b171cc9b152409b, type: 3}
@@ -1276,6 +1321,50 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &209858609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209858610}
+  - component: {fileID: 209858611}
+  m_Layer: 0
+  m_Name: Track Achievement Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209858610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209858609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1805522738}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209858611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209858609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3d1de606da491089d14dea94ff1df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Identifier: CollectedPotion
 --- !u!43 &228190116
 Mesh:
   m_ObjectHideFlags: 0
@@ -2640,24 +2729,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1772056878178151638, guid: 086173680896d1646b397e58d7242b50, type: 3}
   m_PrefabInstance: {fileID: 1865596730}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &855782459 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1082744466237280963, guid: a4898f3f2ebafb643b0ee24e08de2a2e, type: 3}
+--- !u!114 &855782460 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 855782460, guid: a4898f3f2ebafb643b0ee24e08de2a2e, type: 3}
   m_PrefabInstance: {fileID: 3623916126843087301}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &855782460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855782459}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10a5ec0fd97aed943a3e6833ea9e6a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _items: []
 --- !u!1 &862810152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,6 +4073,51 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1530608983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530608984}
+  - component: {fileID: 1530608985}
+  m_Layer: 0
+  m_Name: Collect Item Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530608984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530608983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1805522738}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530608985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530608983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766a967f78d64224b1b893e6a7f4fa96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inventory: {fileID: 855782460}
+  _item: {fileID: 11400000, guid: 9e664438e6cf47c479619b246f049b22, type: 2}
 --- !u!43 &1636179554
 Mesh:
   m_ObjectHideFlags: 0
@@ -4332,10 +4459,8 @@ GameObject:
   - component: {fileID: 1805522736}
   - component: {fileID: 1805522735}
   - component: {fileID: 1805522734}
-  - component: {fileID: 1805522740}
-  - component: {fileID: 1805522739}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4385,7 +4510,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: a2f3fb54db89fc444b09c91c7f51f674, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4425,37 +4550,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7365596, y: 0.9392125, z: 2.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 209858610}
+  - {fileID: 1530608984}
+  - {fileID: 145465567}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1805522739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805522733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766a967f78d64224b1b893e6a7f4fa96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _inventory: {fileID: 855782460}
-  _item: {fileID: 11400000, guid: 9e664438e6cf47c479619b246f049b22, type: 2}
---- !u!114 &1805522740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805522733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f3d1de606da491089d14dea94ff1df3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Identifier: CollectedPotion
 --- !u!1001 &1865596730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5863,7 +5964,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1082744466237280975, guid: a4898f3f2ebafb643b0ee24e08de2a2e, type: 3}
   m_PrefabInstance: {fileID: 3623916126843087301}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855782459}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
@@ -6050,7 +6151,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 5000
-  field of view: 35
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -6076,7 +6177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8944336656485594569}
   m_LocalRotation: {x: 0, y: -0.99346346, z: 0, w: 0.11415048}
-  m_LocalPosition: {x: -1.0821786, y: 1.7, z: 7.883078}
+  m_LocalPosition: {x: -0.33114886, y: 1.25, z: 10.429089}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 429927039}
