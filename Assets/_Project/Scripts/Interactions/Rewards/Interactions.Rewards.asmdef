@@ -1,0 +1,17 @@
+{
+    "name": "Interactions.Rewards",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f0220e8819d883a4aa2f7509d23b976a",
+        "GUID:3d98847a31277ec44aadce00840f0687"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

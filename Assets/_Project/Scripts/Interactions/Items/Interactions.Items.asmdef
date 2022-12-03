@@ -1,0 +1,17 @@
+{
+    "name": "Interactions.Items",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f0220e8819d883a4aa2f7509d23b976a",
+        "GUID:01b0b9a7be1d8d944ac8062bfe17af7f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
