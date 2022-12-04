@@ -1,0 +1,21 @@
+{
+	 "name": "com.atomlg.interaction-system",
+	 "version": "1.0.0",
+	 "displayName": "Norseman Interaction System",
+	 "description": "An interaction system for the Norseman demo.",
+	 "unity": "2020.3",
+	 "unityRelease": "42f1",
+	 "changelogUrl": "https://docs.unity3d.com/Manual/upm-manifestPkg.html",
+	 "documentationUrl": "https://docs.unity3d.com/Manual/upm-manifestPkg.html",
+	 "licensesUrl": "https://example.com/licensing.html",
+	 "dependencies":
+	 {
+		 "com.unity.inputsystem": "1.0.2" 
+	 },
+	 "author":
+	 {
+		"name": "Atomlg",
+		"email": "atomdnr@gmail.com",
+		"url": "https://www.unity3d.com"
+	 }
+}

@@ -1,7 +1,10 @@
 {
-    "name": "Interactions",
+    "name": "Interactions.Rewards",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:51b2509ec7d6460468c13d0e39b2a440",
+        "GUID:3d98847a31277ec44aadce00840f0687"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

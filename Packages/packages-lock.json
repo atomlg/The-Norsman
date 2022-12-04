@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.atomlg.interaction-system": {
+      "version": "file:InteractionSystem",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.2"
+      }
+    },
     "com.unity.animation.rigging": {
       "version": "1.0.3",
       "depth": 0,
